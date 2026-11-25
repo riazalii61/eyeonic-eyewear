@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Eyeonic Premium Eyewear</title>
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Eye<span>onic</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="brands.html">Brands</a></li>
+          <li class="nav-item"><a class="nav-link" href="categories.html">Categories</a></li>
+          <li class="nav-item"><a class="nav-link" href="compare.html">Compare Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
+        </ul>
+        <div class="d-flex align-items-center gap-3">
+          <div class="search-container">
+            <i class="bi bi-search search-icon"></i>
+            <input type="text" class="search-input" id="searchInput" placeholder="Search...">
+          </div>
+          <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <i class="bi bi-moon-fill"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you. Get in touch with our team.</p>
+      <nav class="breadcrumb-custom">
+        <a href="index.html">Home</a> <span class="mx-2 text-white-50">/</span> <span class="active">Contact Us</span>
+      </nav>
+    </div>
+  </section>
+
+  <!-- Contact Info Cards -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <div class="contact-info-card">
+            <div class="icon">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <h5>Our Address</h5>
+            <p class="text-muted mb-0">Eyeonic Optical Store<br>Main Shahrah-e-Faisal<br>Karachi, Pakistan</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <a href="mailto:support@eyeonic.com" class="contact-info-card d-block">
+            <div class="icon">
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+            <h5>Email Us</h5>
+            <p class="text-accent mb-0">support@eyeonic.com</p>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <a href="tel:+923001234567" class="contact-info-card d-block">
+            <div class="icon">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <h5>Call Us</h5>
+            <p class="text-accent mb-0">+92 300 1234567</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form & Map -->
+  <section class="section-padding bg-secondary-custom">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6">
+          <h3 class="mb-4">Send Us a Message</h3>
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label for="name" class="form-label fw-semibold">Full Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="col-md-6">
+                <label for="email" class="form-label fw-semibold">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="col-12">
+                <label for="subject" class="form-label fw-semibold">Subject</label>
+                <input type="text" class="form-control" id="subject" placeholder="How can we help?" required>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="col-12">
+                <label for="message" class="form-label fw-semibold">Message</label>
+                <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+                <div class="invalid-feedback"></div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary-custom w-100">
+                  <i class="bi bi-send-fill me-2"></i>Send Message
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6">
+          <h3 class="mb-4">Find Us Here</h3>
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.146898456089!2d67.0345!3d24.8607!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e1fcc208d7d%3A0x8b1c1b1c1b1c1b1c!2sShahrah-e-Faisal%2C%20Karachi!5e0!3m2!1sen!2spk!4v1700000000000!5m2!1sen!2spk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div class="mt-4">
+            <h5 class="mb-3">Business Hours</h5>
+            <ul class="list-unstyled">
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Monday - Friday</span>
+                <span class="fw-semibold">10:00 AM - 9:00 PM</span>
+              </li>
+              <li class="d-flex justify-content-between py-2 border-bottom">
+                <span>Saturday</span>
+                <span class="fw-semibold">11:00 AM - 8:00 PM</span>
+              </li>
+              <li class="d-flex justify-content-between py-2">
+                <span>Sunday</span>
+                <span class="fw-semibold">12:00 PM - 6:00 PM</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter-section">
+    <div class="container text-center">
+      <h3>Stay Updated with Eyeonic</h3>
+      <p>Subscribe to our newsletter for exclusive deals and new arrivals.</p>
+      <form class="newsletter-form" id="newsletterForm">
+        <div class="input-group">
+          <input type="email" class="form-control" placeholder="Enter your email address" required>
+          <button class="btn btn-gold" type="submit">Subscribe</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row g-4">
+        <div class="col-lg-4 col-md-6">
+          <h5>Eye<span style="color: #d4a853;">onic</span></h5>
+          <p>Your trusted destination for premium eyewear. We bring you the best brands and latest styles in optical fashion.</p>
+          <div class="footer-social mt-3">
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="bi bi-twitter-x"></i></a>
+            <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Quick Links</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="brands.html">Brands</a></li>
+            <li><a href="categories.html">Categories</a></li>
+            <li><a href="compare.html">Compare</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5>Support</h5>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <h5>Contact Info</h5>
+          <ul class="footer-links">
+            <li><i class="bi bi-geo-alt-fill me-2"></i>Main Shahrah-e-Faisal, Karachi, Pakistan</li>
+            <li><i class="bi bi-envelope-fill me-2"></i><a href="mailto:support@eyeonic.com">support@eyeonic.com</a></li>
+            <li><i class="bi bi-telephone-fill me-2"></i><a href="tel:+923001234567">+92 300 1234567</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="mb-0">&copy; 2026 Eyeonic Optical Store. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="bi bi-arrow-up"></i>
+  </button>
+
+  <!-- Bootstrap 5 JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/app.js"></script>
+</body>
+</html>
