@@ -1,6 +1,6 @@
 # Eyeonic Eyewear
 
-I built Eyeonic as my eProject after six months of learning web development at Aptech. It is a responsive eyewear catalog where visitors can browse ten products, examine a frame up close, and compare two products side by side before choosing a style.
+Aptech assigned our team an eProject as part of our final exam. We built Eyeonic Eyewear, a responsive catalog where visitors can browse ten products, examine frames up close, and compare two styles side by side.
 
 ![Amber tortoiseshell sunglasses from the Eyeonic collection](images/hero-eyewear.webp)
 
@@ -35,8 +35,8 @@ The six HTML pages share `css/style.css` and `js/app.js`. Bootstrap 5.3.2 provid
 
 To update a product, edit its entry in `js/app.js`, its photo in `images/products/`, and its downloadable sheet in `docs/`. The contact and newsletter forms demonstrate browser-side validation and display their feedback locally.
 
-## What I learned at Aptech
+## Project credits
 
-Building Eyeonic helped me connect HTML, CSS, and JavaScript across several pages. One practical lesson was how to reuse data. A product’s price appears on its card and in the comparison table, so reading both from the same record keeps them consistent. I also practiced responsive layouts, handling click and input events, and checking that category buttons show the expected products.
+**Riaz Ali** · Eyeonic project team
 
-**Riaz Ali** · Aptech student eProject. The catalog details, store story, and customer testimonials are sample content. The product, store, and customer images are AI-generated illustrations for the project.
+The catalog details, store story, and customer testimonials are sample content. The product, store, and customer images are AI-generated illustrations for the project.
